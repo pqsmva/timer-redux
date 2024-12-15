@@ -1,0 +1,15 @@
+.number {
+    font-size: 44px;
+    font-weight: normal;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    > div  > button {
+        margin: 0 10px;
+    }
+}

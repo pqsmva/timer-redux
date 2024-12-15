@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    padding: 20px;
+
+    button {
+        font-size: 22px;
+        border: 0;
+    }
+}
+
+.link {
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,40 @@
+.timer {
+    display: flex;
+    gap: 10px;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    > div  > button {
+        margin: 0 10px;
+    }
+}
+
+.block {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+.number {
+    font-size: 44px;
+}
+
+.controller {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.controlbutton {
+    background-color: rgba(207, 13, 207, 0.856);
+    color: white;
+    border: 0;
+    width: 22px;
+    height: 22px;
+}

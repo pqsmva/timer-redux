@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+.active {
+  background-color: magenta;
+  color: white !important;
+}
+
+button {
+  background-color: white;
+  border: 1px solid magenta;
+  padding: 2px;
+  font-size: 16px;
+}
